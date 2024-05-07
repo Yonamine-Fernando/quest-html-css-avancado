@@ -1,0 +1,118 @@
+@media(max-width:1440px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .container .description .title {
+        font-size: 3.8rem;
+        margin: 10px 5px;
+
+    }
+
+    .container .description .info {
+        font-size: 1.5rem;
+        letter-spacing: .5px;
+        margin: 30px 5px;
+    }
+
+    .container .description .btn-register p {
+        font-size: 1.6rem;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .social {
+        margin: 10px;
+    }
+}
+
+@media(max-width:1024px) {
+    .container .description .title {
+        font-size: 3rem;
+    }
+
+    .container .description .info {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media(max-width:688px) {
+    body {
+        background: var(--color-violet) url(../images/bg-mobile.svg) no-repeat;
+        background-size: 100vw;
+    }
+
+    .header .logo{
+        margin: 20px 50px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .container img {
+        height: 100%;
+        width: 80%;
+        margin: 10px;
+    }
+
+    .container .description {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .container .description .title {
+        font-size: 4rem;
+    }
+
+    .container .description .info{
+        font-size: 2.4rem;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+    }
+
+    .container .description .btn-register  {
+        display: inline-block;
+       
+    }
+
+    .container .description .btn-register p {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+}
+
+@media(max-width: 414px) {
+    .header .logo{
+        height: 30px;
+    }
+    .container img {
+        height: 30vh;
+    }
+
+    .container .description .title {
+        font-size: 2.5rem;
+    }
+
+    .container .description .info {
+        font-size: 1.5rem;
+        letter-spacing: .5px;
+        
+    }
+
+    .container .description .btn-register p {
+       font-size: 1.5rem;
+       width: 200px;
+       margin-bottom: 0px;
+    }
+
+}
