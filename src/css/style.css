@@ -50,7 +50,7 @@ body {
 
 .container .description .btn-register {
     text-align: center;
-    margin: 10px;
+    margin: 0 auto;
 }
 
 .container .description .btn-register p {
